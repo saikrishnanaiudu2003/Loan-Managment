@@ -1,0 +1,48 @@
+.add-loan {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.add-loan h2 {
+    text-align: center;
+}
+
+.add-loan form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-loan div {
+    margin-bottom: 15px;
+}
+
+.add-loan label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.add-loan input,
+.add-loan select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.add-loan button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-loan button:hover {
+    background-color: #0056b3;
+}
